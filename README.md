@@ -1,69 +1,66 @@
-# 🚀 **Python Data Analytics Portfolio**
-### *Data Wrangling, Statistical Analysis, and Visual Intelligence*
+# 📊 **Python Sales Visualization Dashboard**
+### *Automated Retail Data Analysis & Plotting*
 
 ---
 
 ## 📝 **PROJECT OVERVIEW**
-This repository is a curated collection of Python projects that demonstrate my ability to transform raw data into actionable business insights. The projects cover the entire data lifecycle, from complex cleaning and merging to the creation of executive-level dashboards.
+This project demonstrates the use of **Python** to automate business reporting. By processing raw transactional datasets, the script generates a multi-dimensional dashboard that helps stakeholders identify revenue trends, inventory demand, and pricing correlations.
 
 ---
 
-## 📂 **PORTFOLIO PROJECTS**
+## 🛠️ **CORE VISUALIZATION FEATURES**
+The script (`Matpotib.py`) performs a comprehensive analysis of the `Sales_100.csv` dataset, producing four critical views:
 
-### **1. Employee Performance & Salary Insights** (`Project2.py`)
-* **Focus:** Human Resources (HR) Analytics.
-* **Features:** Automated 2x3 dashboard showing salary distributions, department splits, and performance benchmarks.
-* **Insight:** Identified high-value talent and correlated experience levels with compensation growth.
+* 📈 **Trend Analysis (Line Plot):** Tracks the progression of total sales across orders to identify revenue peaks.
+* 📊 **Product Insights (Bar Chart):** Ranks product categories based on their total contribution to revenue.
+* 🔔 **Quantity Distribution (Histogram):** Analyzes the most frequent order sizes to assist with inventory and logistics planning.
+* 📍 **Pricing Correlation (Scatter Plot):** Maps Unit Price against Total Price to validate pricing consistency and detect outliers.
 
-### **2. Sales Trend Visualization Dashboard** (`Matpotib.py` & `Practice1.py`)
-* **Focus:** Retail & Sales Performance.
-* **Features:** Multi-chart layouts (Line, Bar, Pie, Scatter) analyzing monthly revenue cycles.
-* **Insight:** Pinpointed peak sales months and identified product categories driving 80% of revenue.
 
-### **3. Pandas Data Manipulation Toolkit** (`DataFrame.py`)
-* **Focus:** Data Engineering & Wrangling.
-* **Features:** Advanced relational joins (Inner, Left, Right, Outer), Pivot Tables, and automated statistical reporting.
-* **Tech:** Mastery of `pd.merge()`, `pd.crosstab()`, and grouped aggregations.
 
 ---
 
-## 📊 **VISUALIZATION CAPABILITIES**
-The projects in this repository utilize **Matplotlib** to generate automated graphical reports, including:
-- **Trend Analysis:** Line plots with markers and grid systems.
-- **Categorical Comparisons:** Bar charts and Pie charts with percentage labeling.
-- **Statistical Distributions:** Histograms and Scatter plots for outlier detection.
-
-
+## 📊 **DATASET STRUCTURE**
+The tool is optimized to work with retail CSV data including:
+- **`OrderID`**: Unique transaction reference.
+- **`Product`**: Item name or category.
+- **`Quantity`**: Items sold per order.
+- **`UnitPrice`**: Price per individual unit.
+- **`TotalPrice`**: Total revenue generated per line item.
 
 ---
 
 ## ⚙️ **TECHNICAL STACK**
-- **Language:** Python 3.x
-- **Libraries:** - `Pandas`: High-performance data structures and analysis.
-  - `Matplotlib`: Professional-grade data visualization.
-- **Tools:** Data Merging, Pivot Tables, Statistical Aggregations, Subplot Layouts.
+* **Language:** `Python 3.x`
+* **Libraries:** * `Pandas`: For data aggregation and CSV parsing.
+    * `Matplotlib`: For generating high-quality static charts.
+* **Key Techniques:** Data grouping (`groupby`), frequency distribution (bins), and customized axis labeling.
+
+---
+
+## 📈 **BUSINESS INSIGHTS GENERATED**
+| Feature | Business Value |
+| :--- | :--- |
+| **Line Plot** | Monitors day-to-day revenue health. |
+| **Bar Chart** | Identifies "Star Products" for marketing focus. |
+| **Histogram** | Optimized stock replenishment based on purchase frequency. |
+| **Scatter Plot** | Ensures pricing logic is consistent across the product range. |
 
 ---
 
 ## 🚀 **HOW TO RUN**
-1. Clone this repository:
+1. Ensure you have Python installed.
+2. Install the required libraries:
    ```bash
-   git clone [https://github.com/Anuragkokate09/Python-Data-Analytics-Portfolio](https://github.com/Anuragkokate09/Python-Data-Analytics-Portfolio)
-2. Install dependencies:
    pip install pandas matplotlib
-3. Run any specific project script:
-   python Project2.py
-   
+3. Place Sales_100.csv in the root directory.
+4. Run the script:
+   python Matpotib.py
+
 ---
 
-### **4. Recommended Commit Name**
-> `feat: initial commit of master python data analytics portfolio`
+### **4. Final Commit Instruction**
+To keep your GitHub professional, use this commit message when you push the code and the README:
 
-### **5. Summary Table for GitHub Upload**
-| Project File | Role |
-| :--- | :--- |
-| **`Project2.py`** | HR & Employee Analytics Dashboard |
-| **`DataFrame.py`** | Data Wrangling & Join Logic Toolkit |
-| **`Matpotib.py`** | Retail Sales Visualization |
-| **`Practice1.py`** | Annual Trend Analysis |
-| **`Sales_100.csv`** | Sample dataset for visualization scripts |
+**Commit Name:**
+> `feat: add automated retail sales dashboard and comprehensive documentation`
