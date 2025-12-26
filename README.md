@@ -58,9 +58,3 @@ The tool is optimized to work with retail CSV data including:
    python Matpotib.py
 
 ---
-
-### **4. Final Commit Instruction**
-To keep your GitHub professional, use this commit message when you push the code and the README:
-
-**Commit Name:**
-> `feat: add automated retail sales dashboard and comprehensive documentation`
